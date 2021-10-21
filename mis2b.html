@@ -14,6 +14,9 @@
 			color: #55ff55; }
 	</style>
 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 </head>
 <body>
 	<nav>
@@ -24,7 +27,7 @@
 		</ul>
 	</nav>
 
-	<main>
+	<main class="container-fluid bg-info text-white text-center">
 		<nav>
 			<h1><a href="https://www1.pu.edu.tw/~s1091829/cat">蘇鈺暄 (SuYuXuan)</a> </h1>
 			<h2><a href="https://www.pu.edu.tw/">靜宜大學</a> 
@@ -34,22 +37,24 @@
 		<img src="截圖421.png" alt="照片">
 		<br><br><br>
 
-		<session id="aboutme">
-			<header>關於我</header>
-			<h3>靜宜大學資訊管理學系二年級</h3>
-			<h3><a href="mailto:s1091829@pu.edu.tw">E-Mail: s1091829@pu.edu.tw</a></h3>
-		</session>
+		<div class="row">
+			<session id="aboutme" class="col-lg-4">
+				<header>關於我</header>
+				<h3>靜宜大學資訊管理學系二年級</h3>
+				<h3><a href="mailto:s1091829@pu.edu.tw">E-Mail: s1091829@pu.edu.tw</a></h3>
+			</session>
 
 
-		<article id="collection">
-			<header>珍藏</header>
-			<h3>照片(貓、可愛的、療育的都會截圖...)</h3>
-		</article>
+			<article id="collection" class="col-lg-4">
+				<header>珍藏</header>
+				<h3>照片(貓、可愛的、療育的都會截圖...)</h3>
+			</article>
 
-		<aside id="youtube">
-			<header>推薦影片</header>
-			<iframe src="https://www.youtube.com/embed/hr80UL26V2I" allowfullscreen></iframe>
-		</aside>
+			<aside id="youtube" class="col-lg-4">
+				<header>推薦影片</header>
+				<iframe src="https://www.youtube.com/embed/hr80UL26V2I" allowfullscreen></iframe>
+			</aside>
+		</div><br><br>
 
 		<footer>
 			Copyright ©  蘇鈺暄. All Rights Reserved.
